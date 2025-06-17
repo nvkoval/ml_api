@@ -1,0 +1,5 @@
+fastapi==0.115.12
+gdown==5.2.0
+torch==2.6.0
+transformers==4.50.2
+uvicorn==0.34.3
