@@ -43,8 +43,8 @@ On first run, the model will be downloaded from Google Drive into the `models/` 
 **Response JSON:**
 ```json
 {
-  "class_name": true,
-  "confidence": 0.91
+  "class_name": "not duplicate",
+  "confidence": 0.9058
 }
 ```
 
