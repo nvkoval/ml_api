@@ -1,7 +1,11 @@
 # Question Pair Duplicate Detection API
-This is a **FastAPI-based REST API** that classifies whether two questions are duplicates using a **fine-tuned BERT** model. The model is stored externally on Google Drive and automatically downloaded when the app starts.
+This is a **FastAPI-based REST API** for classifying whether two questions are duplicates using a **fine-tuned BERT** model.
+
+The model is stored externally on Google Drive and is **automatically downloaded** when the app starts. It was trained on the Quora Question Pairs dataset in separate [project repository](https://github.com/nvkoval/quora_duplicate_questions).
 
 🔗 **Try it online**: [https://api-duplicate-questions.onrender.com](https://api-duplicate-questions.onrender.com/docs)
+⚠️ Note: For the first run in the browser, it may take up to a few minutes to load the model from Google Drive (cold start).
+![demo API](https://github.com/nvkoval/ml_api/blob/main/src/image.jpg?raw=true)
 
 ---
 
